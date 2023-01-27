@@ -1,6 +1,5 @@
-var x = 10;
-var y = 20;
-
-var z = y/x;
-
-console.log(z);
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
